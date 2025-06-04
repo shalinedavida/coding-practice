@@ -1,0 +1,105 @@
+.nav-bar{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.5),rgba(29, 27, 27, 0.5)),
+    url("images/mike-lewis-headsmart-media-waAAaeC9hns-unsplash.jpg");
+    background-size: cover;
+    height: 37vh;
+    width:100vw;
+    text-align: center;
+    font-size: 20px; 
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    p{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 75px;
+    }
+ 
+}
+.nav-bar a{
+    margin-left: 2em;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+  #one {
+  background-color:rgb(65, 63, 63);
+  border: solid 1 px;
+  border-color: whitesmoke;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.respond{
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 27px;
+}
+
+.contacts-form{
+    margin-left: 42em;
+}
+#name{
+ width: 450px;
+ height: 60px;
+}
+#email{
+ width: 450px;
+ height: 60px;
+}
+#phone-number{
+ width: 450px;
+ height: 60px;
+}
+#message{
+ width: 450px;
+ height: 160px;
+}
+.online{
+  h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+  }  
+}
+.final{
+    display: flex;
+    padding-left: 15em;
+    gap: 2cm;
+    font-size: 25px;
+    background-color: rgb(219, 248, 239);
+    height: 45vh;
+    padding-top: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px; 
+}
+.information{
+    p{
+ line-height: 2.3;
+    }
+}
+.final-section{
+    p{
+  line-height: 2.3;
+margin-top: -4%;
+padding-right: 10em;
+    }
+}
+.footer{
+display: flex; 
+  background-color: white;
+  height: 40px; 
+  background-color: whitesmoke;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+}
+
