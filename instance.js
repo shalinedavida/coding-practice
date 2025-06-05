@@ -29,19 +29,37 @@
 
 // function removeDuplicates(3);
 
-class Payment {
-  constructor(payerAccount,payeeAccount,amount){
-    this.payerAccount = payerAccount;
-    this.payeeAccount = payeeAccount;
-    this.amount = amount;
-  }
-  processPayment(){
-    console.log(`Processing payment of ${this.amount} from ${this.payerAccount} , to ${this.payeeAccount} `);
+// class Payment {
+//   constructor(payerAccount,payeeAccount,amount){
+//     this.payerAccount = payerAccount;
+//     this.payeeAccount = payeeAccount;
+//     this.amount = amount;
+//   }
+//   processPayment(){
+//     console.log(`Processing payment of ${this.amount} from ${this.payerAccount} , to ${this.payeeAccount} `);
     
+//   }
+// };
+
+// const payment = new Payment("ACC123","ACC456",1500);
+// payment.processPayment();
+
+class Product{
+  constructor(name,quantity,amount){
+    this.name = name;
+    this.quantity = quantity;
+    this.amount=amount;
+  }
+  restock(){
+    if(this.amount <= this.quantity){
+      this.quantity -= this.amount
+    }
+    else{
+    console.log('Not enough stock');
+    
+    }
   }
 };
 
-const payment = new Payment("ACC123","ACC456",1500);
-payment.processPayment();
-
-
+const item = new Product('soap',10);
+item.restock(11);
