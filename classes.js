@@ -56,3 +56,4 @@ let pupil1 = new Pupil("Jana",17);
 let pupil2 = new Pupil("Paul",15);
 pupil1.greet();
 pupil2.greet();
+
